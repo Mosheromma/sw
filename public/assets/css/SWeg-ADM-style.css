@@ -1,0 +1,334 @@
+
+
+ /*
+ |--------------------------------------------------------------------------
+ | STAUBWEG SCRIPT v1.0 - ADMIN CPANLE STYLES - CREATED BY: MOISES ROMANIUC 
+ |--------------------------------------------------------------------------
+ |
+ | FIRST CREATION DATE: 31.08.16  -  MAIL: moshegava@hotmail.com
+ | STAUBWEG SCRIPT  v1.0 uses BOOTSTRAP 3.0 AS A DESIGN FRAMEWORK
+ |
+
+*/	
+	/* LOGIN STYLES */
+
+	.KD_CopyLogin {
+	    color: #fff;
+	    font-family: "Source Sans Pro",sans-serif;
+	    font-weight: bold;
+	}
+
+	/* MAIN STYLES */
+
+	 body {
+	    overflow-x: hidden;
+	    padding-top: 77px;
+	 }
+
+
+	#SWeg_ADM-wrapper {
+	    padding-left: 0;
+	    padding-right: 250px!important;
+	    -webkit-transition: all 0.5s ease;
+	    -moz-transition: all 0.5s ease;
+	    -o-transition: all 0.5s ease;
+	    transition: all 0.5s ease;
+	}
+
+	#SWeg_ADM-wrapper.toggled {
+	    padding-right: 250px;
+	}
+
+	#SWeg_ADM-page-content-wrapper h1, h2, h3 {
+	    color: #263d4b;
+	    font-family: "Source Sans Pro",sans-serif;
+	    text-transform: uppercase;
+	}
+
+
+	#SWeg_ADM-page-content-wrapper h2{
+
+		margin-top:10px;
+		margin-bottom: 24px;
+	}
+
+	#SWeg_ADM-page-content-wrapper h3{
+		color: #7B7A7A;
+	}
+
+	#SWeg_ADM-page-content-wrapper h3 b{
+		font-weight: lighter;
+		color: #263d4b;
+
+	}
+	
+	/* TOP BAR STYLES */
+
+	.SWeg_ADM-topBarStyle {
+
+		background: #038f73;
+		margin-bottom: 0;
+	    border: medium none;
+	    border-radius: 0;
+	    margin-bottom: 0;
+
+	}
+
+	.SWeg_ADM-tB-LG { /* Height for Large Devices */
+
+		min-height: 77px;
+
+	}
+
+	.SWeg_ADM-logo {
+	    background: url('images/admlogo.png');
+	    display: block;
+	    height: 60px;
+	    width: 267px;
+	    margin-top: 7px;
+	    
+	     margin-left: 20px;
+	}
+
+	.SWeg_ADM-logo:hover {
+		text-decoration: none;
+		color: #fff;
+	}
+
+	.SWeg_ADM-logoSmall {
+	    color: #880b0b;
+	    font-size: 0.5em !important;
+	}
+
+	.SWeg_ADM-ausLogg {
+	    float: right;
+	    margin-top: 12px;
+	    font-family: 'Open Sans', sans-serif;
+	    font-weight: bold;
+
+
+	}
+
+	.SWeg_ADM-ausLoggInB:hover {
+	    color: #087D66!important;
+	    background: #fff!important;
+
+
+	}
+
+	.SWeg_ADM-ausLoggInB{
+		background: rgba(0, 0, 0, 0) none repeat scroll 0 0!important;
+	    color: #fff!important;
+	    border: 4px solid #fff!important;
+	    font-family: 'Source Sans Pro', sans-serif!important;
+	    transition: all 0.25s ease 0s!important;
+	    padding: 13px!important;
+
+	}
+
+	.SWeg_ADM-ausLoggBt {
+	    background: #fff;
+	    color: #087D66;
+	    font-weight: bold;
+	    margin-left: 10px;
+	    margin-top: 2px;
+	    padding-top: 2px!important;
+	}
+
+
+
+	/* RIGHT MENU STYLES */
+
+
+	#SWeg_ADM-sidebar-wrapper {
+	    z-index: 1000;
+	    position: fixed;
+	    right: 250px;
+	    width: 0;
+	    height: 100%;
+	    margin-right: -250px;
+	    overflow-y: auto;
+	    background: #263d4b;
+	    -webkit-transition: all 0.5s ease;
+	    -moz-transition: all 0.5s ease;
+	    -o-transition: all 0.5s ease;
+	    transition: all 0.5s ease;
+	}
+
+	.SWeg_ADM-systemInfo {
+	    background: #1B272E;
+	    bottom: 0;
+	    clear: both;
+	    color: #fff;
+	    display: block;
+	    padding: 10px;
+	    position: fixed;
+	    width: 250px;
+	    font-family: 'Open Sans Condensed', sans-serif;
+	}
+
+	.SWeg_ADM-systemInfo p{
+		margin-bottom: 0;
+	}
+
+	#SWeg_ADM-wrapper.toggled #SWeg_ADM-sidebar-wrapper {
+	    width: 250px;
+	}
+
+	#SWeg_ADM-page-content-wrapper {
+	    width: 100%;
+	    position: absolute;
+	    padding: 15px;
+	}
+
+	#SWeg_ADM-wrapper.toggled #SWeg_ADM-page-content-wrapper {
+	    position: absolute;
+	    margin-right: -250px;
+	}
+
+	/* Sidebar Styles */
+
+	.SWeg_ADM-sidebar-nav {
+	    position: absolute;
+	    top: 0;
+	    width: 250px;
+	    margin: 0;
+	    padding: 0;
+	    list-style: none;
+	}
+
+	.SWeg_ADM-sidebar-nav li {
+	    text-indent: 20px;
+	    line-height: 40px;
+	}
+
+	.SWeg_ADM-sidebar-nav li a {
+	    display: block;
+	    text-decoration: none;
+	    color: #999999;
+	}
+
+	.SWeg_ADM-sidebar-nav li a:hover {
+	    text-decoration: none;
+	    color: #fff;
+	    background: rgba(255,255,255,0.2);
+	}
+
+	.SWeg_ADM-sidebar-nav li a:active,
+	.SWeg_ADM-sidebar-nav li a:focus {
+	    text-decoration: none;
+	}
+
+	.SWeg_ADM-sidebar-nav > .SWeg_ADM-sidebar-brand {
+	    height: 65px;
+	    font-size: 18px;
+	    line-height: 60px;
+	}
+
+	.SWeg_ADM-sidebar-nav > .SWeg_ADM-sidebar-brand a {
+	    color: #999999;
+	}
+
+	.SWeg_ADM-sidebar-nav > .SWeg_ADM-sidebar-brand a:hover {
+	    color: #fff;
+	    background: none;
+	}
+
+	@media(min-width:768px) {
+	    #SWeg_ADM-wrapper {
+	        padding-right: 250px;
+	    }
+
+	    #SWeg_ADM-wrapper.toggled {
+	        padding-left: 0;
+	    }
+
+	    #SWeg_ADM-sidebar-wrapper {
+	        width: 250px;
+	    }
+
+	    #SWeg_ADM-wrapper.toggled #SWeg_ADM-sidebar-wrapper {
+	        width: 0;
+	    }
+
+	    #SWeg_ADM-page-content-wrapper {
+	        padding: 20px;
+	        position: relative;
+	    }
+
+	    #SWeg_ADM-wrapper.toggled #SWeg_ADM-page-content-wrapper {
+	        position: relative;
+	        margin-right: 0;
+	    }
+	}
+
+
+
+
+	/* SECCIÓN DE USUARIOS */
+
+
+	/* CREACIÓN DE USUARIOS */
+
+	.form-group label{
+
+		    font-family: "Open Sans Condensed",sans-serif !important;
+   			 text-transform: uppercase;
+
+	}
+
+	/* VISUALIZACIÓN DE USUARIOS */
+
+
+	.SWeg_ADM_ListTable thead {
+	    background: #087D66 none repeat scroll 0 0;
+	    color: #fff;
+	    font-family: "Open Sans Condensed",sans-serif;
+	}
+
+	.SWeg_ADM_ListTable tbody {
+	    background: #f6f6f6 none repeat scroll 0 0;
+	    font-family: 'Source Sans Pro', sans-serif!important;
+	}
+
+	.SWeg_ADM_infoBIG {
+	    font-size: 14px;
+	    font-weight: bold;
+	    text-transform: uppercase;
+	    font-family: 'Open Sans Condensed', sans-serif;
+	}
+	.SWeg_ADM_infoSMALL {
+	    font-size: 26px;
+	    font-family: 'Open Sans Condensed', sans-serif;
+	}
+
+	.list-group-item.active, .list-group-item.active:hover{
+		    background: #6d3c3c none repeat scroll 0 0;
+    		border-color: #5c2629;
+
+	}
+
+	.list-group-item.actUsertyp{
+		    background: #fd5f44 none repeat scroll 0 0;
+    		border-color: #B05140;
+    		color: #fff;
+	}
+
+
+	/* VISUALIZACIÓN DE Clientes */
+
+
+	.SWeg_ADM_ListKund thead {
+	    background: #087D66 none repeat scroll 0 0;
+	    color: #fff;
+	    font-family: "Open Sans Condensed",sans-serif;
+	}
+	.SWeg_ADM_ListKund tbody {
+	    background: #f6f6f6 none repeat scroll 0 0;
+	    font-family: 'Source Sans Pro', sans-serif!important;
+	}
+
+	.SWeg_ADM_ListKund tbody tr{
+	    background: #f6f6f6 none repeat scroll 0 0;
+	    font-family: 'Source Sans Pro', sans-serif!important;
+	}

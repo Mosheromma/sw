@@ -1,0 +1,5 @@
+suites:
+    main:
+        namespace: SWeg
+        psr4_prefix: SWeg
+        src_path: app

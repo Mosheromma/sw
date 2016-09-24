@@ -1,0 +1,32 @@
+
+<div class="panel panel-default">
+  <div class="panel-body">
+    
+
+
+<div class="alert alert-warning alert-dismissable">
+  <button type="button" class="close" data-dismiss="alert">&times;</button>
+  <strong>Achtung!</strong> Siempre y únicamente entrar desde un PC seguro.
+</div>
+
+{!! Form::open(['route'=>'admin_login.store', 'method'=>'post']) !!}
+     <div class="form-group" style="margin-top: 20px;">
+	{!! Form::label('E-Mail:') !!}
+	{!! Form::text('email',null,['class'=>'form-control', 'placeholder'=>'E-Mail acces']) !!}
+	</div>
+
+     <div class="form-group" style="margin-top: 20px;">
+	{!! Form::label('Passwort:') !!}
+	{!! Form::password('password', ['class'=>'form-control', 'placeholder'=>'****************']) !!}
+	</div>	
+
+  </div>
+  <div class="panel-footer">
+{!! Form::submit('In das Konto logen',['class'=>'btn btn-danger','style'=>'width: 100%; padding: 20px; text-transform: uppercase; font-weight: bold;']) !!}
+  </div>
+
+
+
+{!! Form::close() !!}
+
+

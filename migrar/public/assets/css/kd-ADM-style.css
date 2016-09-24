@@ -1,0 +1,315 @@
+
+
+ /*
+ |--------------------------------------------------------------------------
+ | KDScript - ADMIN CPANLE STYLES - CREATED BY: MOISES ROMANIUC 
+ |--------------------------------------------------------------------------
+ |
+ | FIRST CREATION DATE: 31.08.16  -  MAIL: moshegava@hotmail.com
+ | KDScript uses BOOTSTRAP 3.0 AS A DESIGN FRAMEWORK
+ |
+
+*/	
+	/* LOGIN STYLES */
+
+	.KD_CopyLogin {
+	    color: #fff;
+	    font-family: "Source Sans Pro",sans-serif;
+	    font-weight: bold;
+	}
+
+	/* MAIN STYLES */
+
+	 body {
+	    overflow-x: hidden;
+	    padding-top: 77px;
+	 }
+
+
+	#KD_ADM-wrapper {
+	    padding-left: 0;
+	    padding-right: 250px!important;
+	    -webkit-transition: all 0.5s ease;
+	    -moz-transition: all 0.5s ease;
+	    -o-transition: all 0.5s ease;
+	    transition: all 0.5s ease;
+	}
+
+	#KD_ADM-wrapper.toggled {
+	    padding-right: 250px;
+	}
+
+	#KD_ADM-page-content-wrapper h1, h2, h3 {
+	    color: #6d3c3c;
+	    font-family: "Source Sans Pro",sans-serif;
+	    text-transform: uppercase;
+	}
+
+
+	#KD_ADM-page-content-wrapper h2{
+
+		margin-top:10px;
+		margin-bottom: 24px;
+	}
+
+	#KD_ADM-page-content-wrapper h3{
+		color: #7B7A7A;
+	}
+
+	#KD_ADM-page-content-wrapper h3 b{
+		font-weight: lighter;
+		color: #6d3c3c;
+
+	}
+	
+	/* TOP BAR STYLES */
+
+	.KD_ADM-topBarStyle {
+
+		background: #FD5F44;
+		margin-bottom: 0;
+	    border: medium none;
+	    border-radius: 0;
+	    margin-bottom: 0;
+
+	}
+
+	.KD_ADM-tB-LG { /* Height for Large Devices */
+
+		min-height: 77px;
+
+	}
+
+	.KD_ADM-logo {
+	    color: #fff;
+	    display: block;
+	    font-size: 2em;
+	    font-weight: bold;
+	    margin-top: 17px;
+	    font-family: 'Open Sans Condensed', sans-serif;
+	     margin-left: 20px;
+	}
+
+	.KD_ADM-logo:hover {
+		text-decoration: none;
+		color: #fff;
+	}
+
+	.KD_ADM-logoSmall {
+	    color: #880b0b;
+	    font-size: 0.5em !important;
+	}
+
+	.KD_ADM-ausLogg {
+	    float: right;
+	    margin-top: 12px;
+	    font-family: 'Open Sans', sans-serif;
+	    font-weight: bold;
+
+
+	}
+
+	.KD_ADM-ausLoggInB:hover {
+	    color: #f56857!important;
+	    background: #fff!important;
+
+
+	}
+
+	.KD_ADM-ausLoggInB{
+		background: rgba(0, 0, 0, 0) none repeat scroll 0 0!important;
+	    color: #fff!important;
+	    border: 4px solid #fff!important;
+	    font-family: 'Source Sans Pro', sans-serif!important;
+	    transition: all 0.25s ease 0s!important;
+	    padding: 13px!important;
+
+	}
+
+	.KD_ADM-ausLoggBt {
+	    background: #fff;
+	    color: #f56857;
+	    font-weight: bold;
+	    margin-left: 10px;
+	    margin-top: 2px;
+	    padding-top: 2px!important;
+	}
+
+
+
+	/* RIGHT MENU STYLES */
+
+
+	#KD_ADM-sidebar-wrapper {
+	    z-index: 1000;
+	    position: fixed;
+	    right: 250px;
+	    width: 0;
+	    height: 100%;
+	    margin-right: -250px;
+	    overflow-y: auto;
+	    background: #6D3C3C;
+	    -webkit-transition: all 0.5s ease;
+	    -moz-transition: all 0.5s ease;
+	    -o-transition: all 0.5s ease;
+	    transition: all 0.5s ease;
+	}
+
+	.KD_ADM-systemInfo {
+	    background: #985a5a;
+	    bottom: 0;
+	    clear: both;
+	    color: #fff;
+	    display: block;
+	    padding: 10px;
+	    position: fixed;
+	    width: 250px;
+	    font-family: 'Open Sans Condensed', sans-serif;
+	}
+
+	.KD_ADM-systemInfo p{
+		margin-bottom: 0;
+	}
+
+	#KD_ADM-wrapper.toggled #KD_ADM-sidebar-wrapper {
+	    width: 250px;
+	}
+
+	#KD_ADM-page-content-wrapper {
+	    width: 100%;
+	    position: absolute;
+	    padding: 15px;
+	}
+
+	#KD_ADM-wrapper.toggled #KD_ADM-page-content-wrapper {
+	    position: absolute;
+	    margin-right: -250px;
+	}
+
+	/* Sidebar Styles */
+
+	.KD_ADM-sidebar-nav {
+	    position: absolute;
+	    top: 0;
+	    width: 250px;
+	    margin: 0;
+	    padding: 0;
+	    list-style: none;
+	}
+
+	.KD_ADM-sidebar-nav li {
+	    text-indent: 20px;
+	    line-height: 40px;
+	}
+
+	.KD_ADM-sidebar-nav li a {
+	    display: block;
+	    text-decoration: none;
+	    color: #999999;
+	}
+
+	.KD_ADM-sidebar-nav li a:hover {
+	    text-decoration: none;
+	    color: #fff;
+	    background: rgba(255,255,255,0.2);
+	}
+
+	.KD_ADM-sidebar-nav li a:active,
+	.KD_ADM-sidebar-nav li a:focus {
+	    text-decoration: none;
+	}
+
+	.KD_ADM-sidebar-nav > .KD_ADM-sidebar-brand {
+	    height: 65px;
+	    font-size: 18px;
+	    line-height: 60px;
+	}
+
+	.KD_ADM-sidebar-nav > .KD_ADM-sidebar-brand a {
+	    color: #999999;
+	}
+
+	.KD_ADM-sidebar-nav > .KD_ADM-sidebar-brand a:hover {
+	    color: #fff;
+	    background: none;
+	}
+
+	@media(min-width:768px) {
+	    #KD_ADM-wrapper {
+	        padding-right: 250px;
+	    }
+
+	    #KD_ADM-wrapper.toggled {
+	        padding-left: 0;
+	    }
+
+	    #KD_ADM-sidebar-wrapper {
+	        width: 250px;
+	    }
+
+	    #KD_ADM-wrapper.toggled #KD_ADM-sidebar-wrapper {
+	        width: 0;
+	    }
+
+	    #KD_ADM-page-content-wrapper {
+	        padding: 20px;
+	        position: relative;
+	    }
+
+	    #KD_ADM-wrapper.toggled #KD_ADM-page-content-wrapper {
+	        position: relative;
+	        margin-right: 0;
+	    }
+	}
+
+
+
+
+	/* SECCIÓN DE USUARIOS */
+
+
+	/* CREACIÓN DE USUARIOS */
+
+	.form-group label{
+
+		    font-family: "Open Sans Condensed",sans-serif !important;
+   			 text-transform: uppercase;
+
+	}
+
+	/* VISUALIZACIÓN DE USUARIOS */
+
+
+	.KD_ADM_ListTable thead {
+	    background: #6d3c3c none repeat scroll 0 0;
+	    color: #fff;
+	    font-family: "Open Sans Condensed",sans-serif;
+	}
+
+	.KD_ADM_ListTable tbody {
+	    background: #f6f6f6 none repeat scroll 0 0;
+	    font-family: 'Source Sans Pro', sans-serif!important;
+	}
+
+	.KD_ADM_infoBIG {
+	    font-size: 14px;
+	    font-weight: bold;
+	    text-transform: uppercase;
+	    font-family: 'Open Sans Condensed', sans-serif;
+	}
+	.KD_ADM_infoSMALL {
+	    font-size: 26px;
+	    font-family: 'Open Sans Condensed', sans-serif;
+	}
+
+	.list-group-item.active, .list-group-item.active:hover{
+		    background: #6d3c3c none repeat scroll 0 0;
+    		border-color: #5c2629;
+
+	}
+
+	.list-group-item.actUsertyp{
+		    background: #fd5f44 none repeat scroll 0 0;
+    		border-color: #B05140;
+    		color: #fff;
+	}

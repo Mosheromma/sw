@@ -1,0 +1,40 @@
+<?php
+
+namespace SWeg;
+
+use Illuminate\Auth\Authenticatable;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Auth\Passwords\CanResetPassword;
+use Illuminate\Contracts\Auth\Authenticatable as AuthenticatableContract;
+use Illuminate\Contracts\Auth\CanResetPassword as CanResetPasswordContract;
+
+class User extends Model implements AuthenticatableContract, CanResetPasswordContract
+{
+    use Authenticatable, CanResetPassword;
+
+    /**
+     * The database table used by the model.
+     *
+     * @var string
+     */
+    protected $table = 'users';
+
+    public function rechnungen()
+    {
+        return $this->hasMany('SWeg\rechnungen');
+    }
+
+        /**
+     * The attributes that are mass assignable.
+     *
+     * @var array
+     */
+    protected $fillable = ['name', 'nachname1', 'nachname2', 'geburtstag', 'telefonnummer', 'handynummer', 'email', 'adresse', 'postleizahl', 'ort', 'password'];
+
+    /**
+     * The attributes excluded from the model's JSON form.
+     *
+     * @var array
+     */
+    protected $hidden = ['password', 'remember_token'];
+}

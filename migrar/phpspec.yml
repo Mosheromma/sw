@@ -1,0 +1,5 @@
+suites:
+    main:
+        namespace: KDScript
+        psr4_prefix: KDScript
+        src_path: app
